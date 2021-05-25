@@ -1,0 +1,228 @@
+.contenedorPrincipal{
+    display: flex;
+    margin-bottom: 15px ;
+}
+/* Estilos trabajador Panel (parte izquierda de la pantalla)*/
+.trabajadorPanel{
+    width: 180px;
+    margin: 0px 15px;
+}
+.imgUsuario img{
+    border: 6px solid #F4F4F4;
+    border-radius: 100%;
+    width: 89%;
+}
+.imgUsuario{
+    border-radius: 100%;
+    width: 83px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-bottom: -30px;
+}
+.contenedorInfoUsuarioOpciones{
+    padding: 30px 10px 20px;
+    background-color: #FFFFFF;
+    width: 160px;
+    border-radius: 5px;
+}
+.infoUsuario .nombre{
+    text-align: center;
+    font-size: 14px;
+    color: #696969;
+    margin: 0;
+    margin-bottom: 14px;
+}
+.infoUsuario h3{
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    color: #969696;
+    margin: 5px 0px;
+}
+.trabajadorPanel hr{
+    background-color:#EDEDED;
+    border: none;
+    height: 2px;
+    margin:  0 0 24px;
+}
+.opcionesPanel .opcion{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 11px;
+    text-align: center;
+}
+.opcion:last-child{
+    margin-bottom: 0;
+}
+.opcion div{
+    width: 50%;
+    cursor: pointer;
+}
+.opcion div p{
+    margin:0;
+    font-size: 9px;
+    color: #7C7C7C;
+    line-height: 88.19%;
+}
+.opcion div .elementosDeTrabajoTexto{
+    color:#36A792 ;
+}
+
+/* Estilos contenidoPanel (parte derecha de la pantalla)*/
+.contenidoPanel{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 11px rgba(0, 0, 0, 0.1));
+}
+.encabezadoContenido{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: solid 2px #1B344C;
+    padding-bottom: 10px;
+}
+.encabezadoContenido hr{
+    width: 30%;
+    height: 2px;
+    border: none;
+    background-color:#1B344C;
+    margin: 0;
+    margin-top: -15px;
+}
+.encabezadoContenido div{
+    text-align: right;
+    margin-top: 10px;
+}
+.encabezadoContenido div:last-child{
+    text-align: left;
+    margin-top: 0px;
+}
+.encabezadoContenido div p{
+    width: 100px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #1B344C;
+    text-align: center;
+    margin: 0 -25px;
+}
+
+.tituloElementoYbotonAgregarElemento{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.tituloElementoYbotonAgregarElemento h1{
+    font-size: 16px;
+    color: #696969;
+}
+.tituloElementoYbotonAgregarElemento img{
+    cursor: pointer;
+}
+.elementoDeTrabajo{
+    display: flex;
+    background-color: #F7F7F7;
+    margin: 15px;
+    margin-top: 0;
+    padding-right: 15px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.19));
+}
+.elementoDatos{
+    margin: 4px 0 4px;
+    margin-right: -1px;
+    color: #848484;
+    font-size: 10px;
+    padding:  10px  10px;
+    padding-left: 25px;
+    border-right: 1px solid #C4C4C4;
+    font-weight: 400;
+}
+.elementoDatos .PrimerDatoElemento{
+    color: #5B5B5B;
+    font-weight: 700;
+}
+.elementoDatos li{
+    margin-bottom: 6px;
+    height: 9px;
+}
+.DatoElemento:last-child{
+    margin:0;
+}
+.elementoDeTrabajo div{
+    margin: 4px 0 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px  17px;
+    border-right: 1px solid #C4C4C4;
+    font-size: 12px;
+    font-weight: 700;
+    color: #5B5B5B;
+}
+.elementoDeTrabajo div label{
+    margin-bottom: 5px;
+    height: 12px;
+}
+.elementoDeTrabajo div select, .elementoDeTrabajo div input{
+    width: 104px;
+    height: 17px;
+    color: #696969;
+    font-size: 10px;
+    font-family: Roboto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.elementoDeTrabajo  textarea{
+    width: 178px;
+    margin: 13px 17px;
+    font-size: 10px;
+}
+.elementoDeTrabajo  textarea::placeholder{
+    padding: 7px;
+    font-family: 10px;
+}
+.iconoClip{
+    cursor: pointer;
+}
+.elementoDeTrabajo .botonCompletar{
+    align-self: center;
+    margin-left: auto;
+    width: 107px;
+    height: 25px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #36A792;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.mensaje{
+    height: 24px;
+    color: #FFFFFF;
+    background-color: #282828;
+    position: relative;
+    bottom: 18px;
+    left: 35%;
+    font-size: 10px;
+    padding: 5px 8px;
+    box-sizing: border-box;
+    display: none;
+}
+.mensajeRaya{
+    content: "";
+    width: 0; 
+    height: 0;
+    position: relative;
+    top: 0px;
+    left: 17%; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 20px solid #282828;
+    transform: rotate(316deg);
+    display: none;
+}

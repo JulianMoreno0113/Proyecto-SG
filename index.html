@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asserts/Styles/estilosNavSuperior.css">
+    <link rel="stylesheet" href="asserts/Styles/estilosContenedorPrincipal.css">
+    <title>Página SG</title>
+</head>
+<body>
+    <nav class="barraNavegacionSuperior">
+        <h1 class="tituloDePagina">Elementos de trabajo</h1>
+        <input type="text" placeholder="Agregar trabajador" class="inputAgregarTrabajador">
+        <button class="botonSalir"><img src="asserts/icons/iconosNav/VectorflechaVolver.svg" alt="" class="VectorflechaVolver">Salir</button>
+        <div class="contenedorIconosNav">
+            <img src="asserts/icons/iconosNav/configuracionTrabajador.svg" alt="icono configurar trabajador">
+            <img src="asserts/icons/iconosNav/herramientas.svg" alt="icono herramientas">
+            <img src="asserts/icons/iconosNav/trabajadores.svg" alt="icono trabajadores">
+            <img src="asserts/icons/iconosNav/alertas.svg" alt="icono alertas">
+            <img src="asserts/icons/iconosNav/personaSaliendo.svg" alt="icono persona saliendo">
+            <img src="asserts/icons/iconosNav/buscar.svg" alt="icono buscar">
+            <img src="asserts/icons/iconosNav/calendarioSinco.svg" alt="icono calendario">
+            <img src="asserts/icons/iconosNav/configuraciones.svg" alt="icono configuraciones">
+        </div>
+    </nav>
+    <main class="contenedorPrincipal">
+        <section class="trabajadorPanel">
+            <div class="imgUsuario">
+                <img src="asserts/icons/iconosConetenedorPrincipal/VectorImgUsuario.svg" alt="Imagen Usuario">
+            </div>
+            <div class="contenedorInfoUsuarioOpciones">
+                <div class="infoUsuario">
+                    <h2 class="nombre">Deyner Antonio Romero Palomino</h2>
+                    <h3 class="identificacion">C.C 1039010010</h3>
+                    <h3 class="ocupacion">Lider de equipo de Desarrollo</h3>
+                    <h3 class="modulo">Directo GTH</h3>
+                </div>
+                <hr>
+                <div class="opcionesPanel">
+                    <div class="opcion">
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/datosTrabajador.svg" alt="icono Datos Trabajador">
+                            <p>Datos del trabajador</p>
+                        </div>
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/elementosTrabajos.svg" alt="icono Elementos de Trabajo">
+                            <p class="elementosDeTrabajoTexto">Elementos de trabajo</p>
+                        </div>
+                    </div>
+                    <div class="opcion">
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/capacitaciones.svg" alt="icono Capacitaciones">
+                            <p>Capacitaciones</p>
+                        </div>
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/examenesVacunas.svg" alt="icono Examenes y Vacunas">
+                            <p>Examenes y vacunas</p>
+                        </div>
+                    </div>
+                    <div class="opcion">
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/Incapacidades.svg" alt="icono Incapacidades">
+                            <p>Incapacidades</p>
+                        </div>
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/enfermedadesLaborales.svg" alt="icono Enfermedades Laborales">
+                            <p>Enfermedades laborales</p>
+                        </div>
+                       
+                    </div>
+                    <div class="opcion"> 
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/estadoSalud.svg" alt="icono Estado de Salud">
+                            <p>Estado de salud</p>
+                        </div>
+                        <div>
+                            <img src="asserts/icons/iconosConetenedorPrincipal/accidentesLaborales.svg" alt="icono Accidentes Laborales">
+                            <p>Accidentes laborales</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenidoPanel">
+            <header class="encabezadoContenido">
+                <div>
+                    <img src="asserts/icons/iconosConetenedorPrincipal/elementosPendientesAsignar.svg" alt="">
+                    <p>Elementos pendientes por asignar</p>
+                </div>
+                <hr>
+                <div>
+                    <img src="asserts/icons/iconosConetenedorPrincipal/elementosAsignados.svg" alt="">
+                    <p>Elementos asignados</p>
+                </div>
+            </header>
+            <div class="contenido">
+                <div class="tituloElementoYbotonAgregarElemento">
+                    <h1>Elementos de trabajo pendientes por asignar</h1>
+                        <div class="mensaje">
+                            Asignar nuevo elemento de trabajo
+                        </div><div class="mensajeRaya"></div>
+                    <img src="asserts/icons/iconosConetenedorPrincipal/VectorañadirElemento.svg" alt="" class="botonAñadirElemento">
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="asserts/JavaScript/logica.js"></script>
+</body>
+</html>
